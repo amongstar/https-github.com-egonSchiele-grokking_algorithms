@@ -1,5 +1,5 @@
 # Finds the smallest value in an array
-def findSmallest(arr)
+def find_smallest(arr)
   # Stores the smallest value
   smallest = arr[0]
   # Stores the index of the smallest value
@@ -15,15 +15,15 @@ def findSmallest(arr)
 end
 
 # Sort array
-def selectionSort(arr)
-  newArr = []
-  (0...(arr.length)).each do |i|
+def selection_sort(arr)
+  new_arr = []
+  arr.length.times do
     # Finds the smallest element in the array and adds it to the new array
-    smallest = findSmallest(arr)
-    newArr.push(arr.delete_at(smallest))
+    smallest = find_smallest(arr)
+    new_arr.push(arr.delete_at(smallest))
   end
-  newArr
+  new_arr
 end
 
 # 'p obj' is the same as 'puts obj.inspect'
-p selectionSort([5, 3, 6, 2, 10])
+p selection_sort([5, 3, 6, 2, 10])
