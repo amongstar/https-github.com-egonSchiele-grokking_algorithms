@@ -14,7 +14,7 @@ def binary_search(list, item)
       low = mid + 1
     end
   end
-  
+
   return nil
 end
 
