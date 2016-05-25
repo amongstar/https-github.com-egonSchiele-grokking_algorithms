@@ -6,7 +6,7 @@ Also check out [Python Tutor](http://pythontutor.com/), a great website that hel
 
 ## Images
 
-This repo also contains every image in Grokking Algorithms. These images are available for non-commercial use. If you use an image, please add "copyright Manning Publications, drawn by adit.io". You are welcome to use these images in any non-commercial teaching materials, presentations, etc.
+This repo also contains every image in Grokking Algorithms, in hi-res. These images are available for free for non-commercial use. If you use an image, please add "copyright Manning Publications, drawn by adit.io". You are welcome to use these images in any non-commercial teaching materials, presentations, etc.
 
 ## Contributing
 
